@@ -18,10 +18,10 @@
 }
 
 .product {
-  margin: 5px;
+  margin: 0px 6px 25px;
 	position: relative;
-  width: 30%;
-  border: 1px solid black;
+  width: 32%;
+  height: 520px;
   cursor: pointer;
 }
 
@@ -37,6 +37,13 @@ img{
 .first-price{
   text-decoration: line-through;
 }
+
+.product-text{
+  position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 
 .product .discount{
   position: absolute;
@@ -63,6 +70,12 @@ img{
 	color: white;
 	padding: 4px 9px;
 	background-color: #008000;
+}
+
+.product .green-alt{
+  position: absolute;
+  bottom: 80px;
+  left: 0;
 }
 
 .product .heart{
