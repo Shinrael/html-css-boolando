@@ -87,6 +87,10 @@ img{
   size: 1px;
 }
 
+.heart:hover{
+  color: red;
+}
+
 .image-two{
   display: none;
 }
