@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/*MAIN*/
+
 .container{
   display: flex;
 	flex-wrap: wrap;
@@ -15,7 +17,7 @@
   overflow: hidden;
 }
 
-.prodotto {
+.product {
   margin: 5px;
 	position: relative;
   width: 30%;
@@ -25,4 +27,39 @@
 img{
   width: 100%;
   height: auto;
+}
+
+.price-now{
+  color: red;
+}
+
+.first-price{
+  text-decoration: line-through;
+}
+
+.product .discount{
+  position: absolute;
+	bottom: 80px;
+	left: 0;
+	color: white;
+	padding: 4px 9px;
+	background-color: red;
+}
+
+.product .green{
+  position: absolute;
+	bottom: 80px;
+	left: 56px;
+	color: white;
+	padding: 4px 9px;
+	background-color: #008000;
+}
+
+.product .heart{
+  position:absolute;
+  top: 5px;
+  right:0px;
+  padding: 12px 12px;
+  background-color: white;
+  size: 1px;
 }
