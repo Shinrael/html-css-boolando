@@ -21,7 +21,9 @@
   margin: 5px;
 	position: relative;
   width: 30%;
-  border: 1px solid black
+  border: 1px solid black;
+  z-index: 1;
+  cursor: pointer;
 }
 
 img{
@@ -44,6 +46,7 @@ img{
 	color: white;
 	padding: 4px 9px;
 	background-color: red;
+  z-index: 2;
 }
 
 .product .green{
@@ -53,6 +56,7 @@ img{
 	color: white;
 	padding: 4px 9px;
 	background-color: #008000;
+  z-index: 2;
 }
 
 .product .heart{
@@ -62,4 +66,14 @@ img{
   padding: 12px 12px;
   background-color: white;
   size: 1px;
+  z-index: 2;
+}
+
+.hide{
+  display: none;
+  z-index: 1;
+}
+
+.hide:hover{
+  display: block;
 }
