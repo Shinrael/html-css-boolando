@@ -22,7 +22,6 @@
 	position: relative;
   width: 30%;
   border: 1px solid black;
-  z-index: 1;
   cursor: pointer;
 }
 
@@ -46,7 +45,15 @@ img{
 	color: white;
 	padding: 4px 9px;
 	background-color: red;
-  z-index: 2;
+}
+
+.product .discount-light{
+  position: absolute;
+	bottom: 80px;
+	left: 0;
+	color: white;
+	padding: 4px 9px;
+	background-color: red;
 }
 
 .product .green{
@@ -56,7 +63,6 @@ img{
 	color: white;
 	padding: 4px 9px;
 	background-color: #008000;
-  z-index: 2;
 }
 
 .product .heart{
@@ -66,14 +72,16 @@ img{
   padding: 12px 12px;
   background-color: white;
   size: 1px;
-  z-index: 2;
 }
 
-.hide{
+.image-two{
   display: none;
-  z-index: 1;
 }
 
-.hide:hover{
+.product:hover .image-two{
   display: block;
+}
+
+.product:hover .image-one{
+  display: none;
 }
